@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge-2</title>
+    <style>
+      button {
+        cursor: pointer;
+      }
+      .button-add,
+      .button-buy {
+        background-color: rgb(255, 216, 20);
+        border: none;
+        padding: 5px 18px;
+        border-radius: 15px;
+        font-size: 12px;
+        transition: background-color 0.15s, opacity 0.1s;
+      }
+
+      .button-add:hover {
+        background-color: rgb(255, 200, 10);
+      }
+
+      .button-add:active,
+      .button-buy:active {
+        opacity: 0.6;
+      }
+
+      .button-buy {
+        background-color: rgb(255, 164, 28);
+      }
+
+      .button-buy:hover {
+        background-color: rgb(250, 145, 10);
+      }
+
+      .price {
+        color: rgb(0, 118, 0);
+        font-weight: bold;
+      }
+      .link {
+        color: rgb(0, 113, 133);
+        transition: color 0.15s;
+      }
+
+      .link:hover {
+        color: rgb(220, 100, 10);
+      }
+    </style>
+  </head>
+  <body>
+    <p><a class="link" href="https://www.amazon.com">Back to Amazon</a></p>
+    <p>Nike Black Running Shoes</p>
+    <p class="price">$39 - in stock.</p>
+    <p>Free delivery tomorrow</p>
+    <button class="button-add">Add to Cart</button>
+    <button class="button-buy">Buy Now</button>
+  </body>
+</html>

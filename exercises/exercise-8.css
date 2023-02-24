@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+.input-name {
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+
+.input-name,
+.input-email {
+  display: block;
+  margin-left: 10px;
+  font-size: 10px;
+}
+
+.customer-support {
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.support-text {
+  width: 200px;
+  display: inline-block;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.search-google {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  padding: 12px 15px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  margin-left: 10px;
+}
+
+.email-text {
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color: rgb(96, 96, 96);
+}
+
+.search-box {
+  width: 200px;
+}
+
+.agreement-text {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-size: 10px;
+  color: rgb(96, 96, 96);
+}
+
+.agreement-button {
+  padding: 10px 40px;
+  border: none;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  width: 250px;
+  border-radius: 30px;
+}
+
+.twitter {
+  vertical-align: middle;
+}
+
+.twitter-cat {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.twitter-text {
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.twitter-button {
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: rgb(82, 145, 254);
+  color: white;
+}

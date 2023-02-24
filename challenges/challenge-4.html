@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge-4</title>
+    <style>
+      button {
+        cursor: pointer;
+      }
+      .button--back {
+        margin-right: 10px;
+        padding: 6px;
+      }
+      .button--next {
+        padding: 6px;
+      }
+      .page--link {
+        margin-right: 8px;
+      }
+
+      .page--link:last-child {
+        margin-right: 0;
+        color: red;
+      }
+
+      .button--stretch {
+        background-color: rgb(1, 146, 1);
+        border: none;
+        padding: 6px 12px;
+        color: white;
+        transition: padding 0.8s;
+      }
+
+      .button--stretch:hover {
+        padding: 15px 30px;
+      }
+
+      .button--shadow {
+        background-color: rgb(1, 146, 1);
+        border: none;
+        padding: 6px 12px;
+        box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+        color: white;
+        transition: margin 0.15s, box-shadow 0.15s;
+      }
+
+      .button--shadow:active {
+        margin: 3px 0 0 3px;
+        box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+      }
+
+      .button--one,
+      .button--two,
+      .button--three {
+        padding: 8px 15px;
+        color: white;
+        border: none;
+        background-color: rgb(1, 146, 1);
+        transition: padding 0.15s, margin 0.15s;
+        margin: 0 10px;
+      }
+
+      .button--one:hover,
+      .button--two:hover,
+      .button--three:hover {
+        padding: 8px 25px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="button--back">Back</button>
+    <a class="page--link" href="#">1</a>
+    <a class="page--link" href="#">2</a>
+    <a class="page--link" href="#">3</a>
+    <a class="page--link" href="#">4</a>
+    <a class="page--link" href="#">5</a>
+    <button class="button--next">Next</button>
+    <br />
+    <br />
+    <button class="button--stretch">Stretch</button>
+    <br />
+    <br />
+    <button class="button--shadow">Shadow</button>
+    <br />
+    <br />
+    <br />
+    <button class="button--one">One</button>
+    <button class="button--two">Two</button>
+    <button class="button--three">Three</button>
+  </body>
+</html>

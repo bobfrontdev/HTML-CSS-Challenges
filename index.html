@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise-01</title>
+    <style>
+      .button--subscribe {
+        background-color: rgb(200, 0, 0);
+        border: none;
+        color: white;
+        border-radius: 2px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+        /* transition property takes 2 values, 1st what we want a transition, 2nd value how long we want do a transition. i.e -> transition: opacity 1s  */
+        /* ALWAYS put the transition property on the element itself, not for hover state*/
+        /* we can make transition of multiple properties separating by a comma, i.e: transition: background-color 1s, color 1s*/
+        /* By default, browser aligns HTML elements based on text */
+        /* void elements are whose content model never allows it to have contents under any circumstances. Void elements can have attributes. */
+      }
+
+      .button--subscribe:hover {
+        opacity: 0.8;
+      }
+
+      .button--subscribe:active {
+        opacity: 0.5;
+      }
+
+      .button--join {
+        background-color: white;
+        border: 1px solid rgb(6, 95, 212);
+        color: rgb(6, 95, 212);
+        padding: 10px 20px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 0.15s, color 0.15s;
+      }
+
+      .button--join:hover {
+        background-color: rgb(6, 95, 212);
+        color: white;
+      }
+
+      .button--join:active {
+        opacity: 0.7;
+      }
+
+      .button--tweet {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+      }
+
+      .button--tweet:hover {
+        /* box-shadow: horizontal vertical blur color  */
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      p {
+        font-family: Arial;
+      }
+
+      .video-title {
+        font-weight: bold;
+        font-size: 18px;
+        width: 280px;
+        line-height: 1.3;
+        margin-bottom: 5px;
+      }
+      .video-stats {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin: 0;
+      }
+
+      .video-author {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+      }
+      .video-description {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        width: 280px;
+        line-height: 1.3;
+      }
+
+      .apple-text {
+        margin-bottom: 50px;
+        font-size: 14px;
+        background-color: rgb(227, 65, 64);
+        color: white;
+        padding: 18px 0;
+        text-align: center;
+      }
+
+      .apple-shop {
+        cursor: pointer;
+      }
+      .apple-shop:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <button>Click</button>
+    <button>MukhammadBobur</button>
+    <button>Apple Pie</button>
+    <p>Hello, World!</p>
+    <p>Today I am re-learning HTML-CSS in depth</p>
+    <a href="https://www.google.com" target="_blank">Search with Google</a>
+
+    <br />
+    <br />
+    <button class="button--subscribe">SUBSCRIBE</button>
+    <button class="button--join">JOIN</button>
+    <button class="button--tweet">Tweet</button>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <p class="video-title">
+      Talking Tech and AI with Google CEO Sundar Pichai!
+    </p>
+    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+    <p class="video-author">Marques Brownlee &#10003;</p>
+    <p class="video-description">
+      Talking tech and AI on the heels of Google I/O. Also a daily driver phone
+      reveal from Google's CEO. Shootout to Sundar!
+    </p>
+    <br />
+    <br />
+    <br />
+    <p class="apple-text">
+      Shop early for the best selection of holiday favorites.
+      <span class="apple-shop">Shop now &#62;</span>
+    </p>
+  </body>
+</html>
