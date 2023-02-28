@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-13a {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.box-13a div:first-child {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-13a div:first-child p {
+  background-color: black;
+  color: white;
+}
+
+.box-13a div:last-child {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.box-13a div:last-child div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-13a div:last-child div p {
+  background-color: black;
+  color: white;
+}
