@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 3000px;
+}
+
+.box-14a {
+  position: fixed;
+  background-color: black;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+}
+
+.box-14b {
+  position: fixed;
+  width: 200px;
+  background-color: green;
+  color: white;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
