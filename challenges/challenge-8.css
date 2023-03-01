@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input-name {
+  display: inline-block;
+  padding: 16px 12px;
+  border-radius: 4px;
+  border: 1px solid rgb(200, 200, 200);
+  width: 148px;
+  margin-bottom: 10px;
+}
+
+.input-email {
+  display: block;
+  width: 300px;
+  padding: 16px 12px;
+  border-radius: 4px;
+  border: 1px solid rgb(200, 200, 200);
+  margin-bottom: 10px;
+}
+
+.sign-up {
+  width: 300px;
+  padding: 16px 12px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(58, 122, 251);
+}
+
+.uber-request-text {
+  font-family: Arial;
+  font-size: 36px;
+}
+
+.uber-location,
+.uber-destination {
+  display: block;
+  width: 400px;
+  margin-bottom: 5px;
+  padding: 16px 12px;
+  background-color: rgb(240, 240, 240);
+  border: none;
+}
+
+button {
+  margin-top: 24px;
+  margin-right: 12px;
+}
+.uber-request-btn,
+.uber-schedule-btn {
+  background-color: rgb(17, 17, 17);
+  padding: 12px 18px;
+  color: white;
+  border: none;
+}
+
+.uber-schedule-btn {
+  background-color: rgb(240, 240, 240);
+  color: black;
+}

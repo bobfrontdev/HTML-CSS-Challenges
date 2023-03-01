@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.animal--box-cat {
+  margin: 10px 6px 0 2px;
+  width: 150px;
+
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+}
+
+.animal--box-info {
+  padding: 6px;
+}
+
+.animal--cat {
+  width: 150px;
+  height: 150px;
+}
+
+.animal--cat-name {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.animal--cat-friend {
+  font-size: 13px;
+  font-family: Arial;
+  color: rgb(170, 170, 170);
+}
+
+.animal--cat-add {
+  margin-top: 10px;
+  background-color: rgb(53, 112, 251);
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  font-family: Arial;
+  border-radius: 4px;
+}
