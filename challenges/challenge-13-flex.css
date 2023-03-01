@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inbox-container {
+  width: 350px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inbox-container > p {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.inbox-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.inbox-sms {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inbox-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.inbox-content p {
+  font-size: 10px;
+}
+
+.inbox-content p:nth-child(1),
+.inbox-content p:nth-child(2) {
+  font-weight: bold;
+}
+
+.inbox-sms p:last-child {
+  align-self: flex-start;
+
+  font-size: 10px;
+  color: gray;
+}

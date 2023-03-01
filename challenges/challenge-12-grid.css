@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+.box-12e {
+  display: grid;
+  width: 250px;
+  height: 100px;
+  grid-template-columns: 1fr 30px;
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 4px;
+  align-items: center;
+  padding: 6px 10px;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.box-12e p:nth-child(even) {
+  background-color: rgb(56, 122, 255);
+  color: white;
+  padding: 2px 8px;
+  justify-self: center;
+  border-radius: 10px;
+}
+
+.box-12g {
+  display: grid;
+  width: 250px;
+  grid-template-columns: 40px 1fr 0.5fr;
+  font-size: 10px;
+  column-gap: 10px;
+  row-gap: 15px;
+  align-items: center;
+  margin: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.box-12g button {
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background-color: rgb(56, 122, 255);
+  color: white;
+  font-size: 12px;
+}
+
+.animal-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.animal-info p:first-child {
+  font-weight: bold;
+}
+
+.animal-info p:not(p:first-child) {
+  color: rgb(150, 150, 150);
+}
+
+.animal-info p {
+  margin-bottom: 2px;
+}
+
+.box-12f {
+  display: grid;
+  grid-template-columns: 50px 1fr 80px;
+  align-items: center;
+  column-gap: 80px;
+  background-color: rgb(120, 82, 178);
+  padding: 8px 12px;
+  margin: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.box-12f input {
+  border: none;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.box-12f input::placeholder {
+  font-size: 12px;
+}
+
+.box-12f button {
+  padding: 4px 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}

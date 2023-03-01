@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.grid-200px {
+  background-color: lightblue;
+}
+.grid-75px {
+  background-color: lightpink;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-top: 20px;
+}
+
+.grid-50 {
+  background-color: lightblue;
+}
+
+.grid-1fr {
+  background-color: lightpink;
+}
+
+.grid-75 {
+  background-color: lightblue;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+
+.grid-3 div {
+  background-color: lightpink;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  column-gap: 20px;
+  margin-top: 20px;
+}
+
+.animal--box {
+  margin-left: 10px;
+}
+
+.animal--img {
+  width: 100%;
+  height: 100px;
+}
+
+.animal--mutual {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  column-gap: 5px;
+  margin: 5px 0;
+}
+
+.animal--mutual-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.animal--info {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  padding: 10px 6px;
+}
+
+.animal--info button {
+  border: none;
+  padding: 6px 12px;
+  background-color: rgb(58, 134, 255);
+  color: white;
+  border-radius: 3px;
+}
+
+.animal--name {
+  font-size: 14px;
+  font-weight: bold;
+}
+.animal--mutual p {
+  font-size: 12px;
+  color: rgb(130, 130, 130);
+}
