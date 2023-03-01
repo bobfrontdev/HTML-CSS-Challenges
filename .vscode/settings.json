@@ -1,5 +1,4 @@
 {
-
-  "randomThemeSwitcher.switchMode": "interval"
-
+  "randomThemeSwitcher.switchMode": "interval",
+  "workbench.colorTheme": "Joker Theme"
 }

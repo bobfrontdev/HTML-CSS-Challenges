@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 3000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-15a {
+  position:relative;
+}
+
+
+.box-fixed {
+  width: 320px;
+  height: 180px;
+  background-color: gray;
+  position: fixed;
+  top: 50px;
+  right:20px;
+}
+
+.box-close {
+  position:absolute;
+  background-color: black;
+  padding:6px 10px;
+  color: white;
+  top:-13px;
+  left:-13px;
+  border-radius: 50%;
+}
+
+.timestamp {
+  position:absolute;
+  right: 8px;
+  bottom:8px;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+}
